@@ -1,0 +1,105 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Escribe tu código acá debajo */
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: "Raleway";
+	font-size: 16px; 
+}
+#encabezado{
+	color: white;
+	background-color: #F78E69;
+	padding: 3%;/*Aumenta tamaño*/
+	text-align: right;
+}
+/*.texto-1 p{
+	font-family: 'Raleway', sans-serif;
+}*/
+
+#cuerpo-1{
+	background: url(../img/uno.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 20% 0;
+	/*filter: hue-rotate(120deg);*/
+	filter:grayscale(1);
+}
+/*solo color*/
+#cuerpo-2{
+	background-color: #F78E69;
+	padding: 3%;
+}
+
+#cuerpo-3{
+	
+	background-color: #ABE188;;
+	padding: 10%;
+	
+}
+.texto-2 p{
+	color: white;
+	border: 5px solid white;
+	padding: 5%;
+	font-family: 'Raleway', sans-serif
+
+}
+/*solo color*/
+#cuerpo-4{
+	background-color: #F78E69;
+	padding: 3%;
+	
+}
+
+#cuerpo-5{
+	background: url(../img/dos.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 30% 0;
+	/*filter: hue-rotate(120deg);*/
+	filter:grayscale(1);
+}
+/*solo color*/
+#cuerpo-6{
+	background-color: #F78E69;
+	padding: 3%;
+	
+}
+
+#cuerpo-7{
+	background-color: #ABE188;;
+	padding: 10%;	
+}
+.texto-3 h1 {
+	color: white;
+	font-size: 5em;
+	line-height: 1em;
+	/*text-transform: uppercase; cambia la letra a mayusculas*/
+	text-align: center;
+	font-family: 'Raleway', sans-serif
+}
+/*solo color*/
+#cuerpo-8{
+	background-color: #F78E69;
+	padding: 3%;
+	
+}
+
+#cuerpo-9{
+	background: url(../img/tres.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 30% 0;
+	/*filter: hue-rotate(120deg);*/
+	filter:grayscale(1);
+}
+#pie{
+	background-color: #F78E69;
+	padding: 3%;
+}
